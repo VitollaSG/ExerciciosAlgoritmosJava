@@ -10,5 +10,7 @@ public class ex003 {
         double sal = sc.nextDouble();
 
         System.out.printf ("O funcionário %s tem um slário de R$ %.2f reais", nome, sal);
+
+        sc.close();
     }
 }

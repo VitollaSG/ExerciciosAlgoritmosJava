@@ -11,5 +11,7 @@ public class ex005 {
         double n2 = sc.nextDouble();
 
         System.out.printf("A média entre %.1f e %.1f é %.1f ", n1, n2, (n1 + n2)/2);
+
+        sc.close();
     }
 }

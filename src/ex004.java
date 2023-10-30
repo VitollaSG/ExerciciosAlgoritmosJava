@@ -10,5 +10,7 @@ public class ex004 {
         int n2 = sc.nextInt();
 
         System.out.printf("A soma entre %d e %d é igual a %d", n1, n2, n1 + n2);
+
+        sc.close();
     }
 }

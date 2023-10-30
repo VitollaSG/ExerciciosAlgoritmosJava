@@ -9,5 +9,7 @@ public class ex007 {
         System.out.printf("O dobro de %.1f é %.2f%n", n1, n1 * 2);
         System.out.printf("A terça parte de %.1f é %.2f%n", n1, n1 / 3);
 
+        sc.close();
+
     }
 }

@@ -9,5 +9,7 @@ public class ex006 {
         System.out.printf("O antecessor de %d é %d%n", n1, n1 - 1 );
         System.out.printf("O sucessor de %d é %d", n1, n1 + 1);
 
+        sc.close();
+
     }
 }

@@ -6,5 +6,7 @@ public class ex002 {
         System.out.print("Qual seu nome? ");
         String nome = sc.nextLine();
         System.out.print("Olá "+ nome + ", è um prazer de conhecer!!" );
+
+        sc.close();
     }
 }
