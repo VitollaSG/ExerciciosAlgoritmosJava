@@ -11,5 +11,6 @@ public class ex014 {
         double km = sc.nextDouble();
 
         System.out.printf("O valor total a pagar pelo aluguel é: R$ %.2f reais", dias * 90 + km * 0.20);
+        sc.close();
     }
 }

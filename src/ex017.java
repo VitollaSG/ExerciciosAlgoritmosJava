@@ -16,5 +16,6 @@ public class ex017 {
         else{
             System.out.println("Velocidade permitida");
         }
+        sc.close();
     }
 }

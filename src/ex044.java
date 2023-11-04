@@ -27,6 +27,7 @@ public class ex044 {
             }
         }
         System.out.print("acabou!!");
+        sc.close();
     }
 }
 

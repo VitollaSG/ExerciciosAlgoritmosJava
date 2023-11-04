@@ -11,5 +11,6 @@ public class ex016 {
         double dias = sc.nextDouble();
 
         System.out.printf("A quantidade de dias perdidos por conta do cigarro é de %.1f dias", (cigarros * dias * 10) / 1440);
+        sc.close();
     }
 }

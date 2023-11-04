@@ -13,6 +13,7 @@ public class ex018 {
         }
         else{
             System.out.printf("Você tem %d anos, ainda não pode votar", anoAtual-anoNasc);
+            sc.close();
         }
     }
 }
