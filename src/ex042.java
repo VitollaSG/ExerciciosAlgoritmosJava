@@ -14,6 +14,7 @@ public class ex042 {
             cont++;
         }
         System.out.print("acabou!!");
+        sc.close();
     }
 }
 

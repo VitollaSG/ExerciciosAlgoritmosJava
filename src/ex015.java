@@ -8,5 +8,6 @@ public class ex015 {
         double dias = sc.nextDouble();
 
         System.out.printf("O salário desse mês é: R$ %.2f reais", 25 * 8 * dias);
+        sc.close();
     }
 }

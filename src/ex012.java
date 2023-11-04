@@ -9,5 +9,6 @@ public class ex012 {
 
         System.out.printf("O valor do produto com desconto é: R$ %.2f reais", preco - (preco * 5 / 100) );
 
+        sc.close();
     }
 }

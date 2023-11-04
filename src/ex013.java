@@ -8,5 +8,6 @@ public class ex013 {
         double sal = sc.nextDouble();
 
         System.out.printf("O valor do salário com aumento será: R$ %.2f reais", sal + (sal * 15 / 100));
+        sc.close();
     }
 }

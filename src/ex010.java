@@ -11,6 +11,6 @@ public class ex010 {
         double largura = sc.nextDouble();
 
         System.out.printf("Para uma parede com %f metros quadrados será necessário %.1f litros de tinta para o serviço. ", largura * altura, (largura * altura) / 2);
-
+        sc.close();
     }
 }

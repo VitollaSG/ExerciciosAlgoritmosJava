@@ -13,5 +13,6 @@ public class ex020 {
         }else{
             System.out.print("O número digitado é impar");
         }
+        sc.close();
     }
 }
