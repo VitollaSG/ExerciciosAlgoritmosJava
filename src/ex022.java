@@ -15,5 +15,6 @@ public class ex022 {
              }else{
                 System.out.printf("Você passou %d ano(s) do alistamento.", (AnoAtual - AnoNasc) -18 );
             }
+            sc.close();
         }
 }
