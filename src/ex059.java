@@ -9,7 +9,7 @@ public class ex059 {
         int idade = 0; int maiorIdade = 0;
         int QuantH = 0; int menorIdade = 200;  int somaidade = 0;
 
-        while (cont.equals("s")){
+        while (cont.equalsIgnoreCase("s")){
             System.out.print(" Qual o sexo da pessoa ? [M / F] ");
             sexo = sc.next();
 
@@ -19,15 +19,15 @@ public class ex059 {
             if (idade > maiorIdade){
                 maiorIdade = idade;
             }
-            if(sexo.equals("m")){
+            if(sexo.equalsIgnoreCase("m")){
                 QuantH++;
             }
-            if ((sexo.equals("f") && (idade < menorIdade))){
+            if ((sexo.equalsIgnoreCase("f") && (idade < menorIdade))){
                 menorIdade = idade;
             } else{
                 menorIdade = 0;
             }
-            if (sexo.equals("m")){
+            if (sexo.equalsIgnoreCase("m")){
                 somaidade += idade;
             }
             System.out.print("Quer continuar? ");

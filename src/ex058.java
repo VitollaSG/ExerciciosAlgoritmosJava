@@ -8,7 +8,7 @@ public class ex058 {
         int idade = 0;
         int Nalunos = 0;
 
-        while (cont.equals("s")){
+        while (cont.equalsIgnoreCase("s")){
             System.out.print("Digite qual a idade do aluno: ");
             idade = sc.nextInt();
             somaidade += idade;
