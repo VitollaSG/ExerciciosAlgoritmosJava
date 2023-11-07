@@ -22,6 +22,7 @@ public class ex049 {
 
         }
         System.out.printf("Foram digitados %d número(s) par(es) e %d número(s) ímpar(es).%n", par, impar);
+        sc.close();
 
     }
 }

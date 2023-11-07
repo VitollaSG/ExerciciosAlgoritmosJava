@@ -17,7 +17,8 @@ public class ex019 {
 
         }else{
             System.out.printf("Sua média foi %.1f. Apriveitamento bom", media);
-            sc.close();
+
         }
+        sc.close();
     }
 }
