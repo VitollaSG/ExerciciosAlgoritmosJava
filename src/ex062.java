@@ -4,7 +4,7 @@ public class ex062 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int Nidade = 0; int totalIdade = 0; int Midade = 0; 
+        int Nidade = 0; int totalIdade = 0; int Midade = 0;
         String cont = "";
 
         do {
