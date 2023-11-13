@@ -6,7 +6,7 @@ public class ex032 {
         Random num = new Random();
         Scanner sc = new Scanner(System.in);
         String cont = "s";
-        
+
         while (cont.equalsIgnoreCase("s")) {
 
             int n2 = num.nextInt(10);
@@ -22,5 +22,6 @@ public class ex032 {
             System.out.print("Quer jogar novamente? ");
             cont = sc.next();
         }
+        sc.close();
     }
 }
